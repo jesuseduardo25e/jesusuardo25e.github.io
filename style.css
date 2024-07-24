@@ -1,0 +1,124 @@
+html{
+	font-family: 'Montserrat', sans-serif;
+}
+
+body{
+	margin: 0;
+	background-color: gainsboro;
+	padding-left: 120px;
+}
+
+header{
+	background-color: dodgerblue;
+	color: White;
+	padding: 1rem 2rem;
+}
+
+header h1{
+	font-size: 3rem;
+	text-align: center;
+}
+		Nav {
+			Position: fixed;
+			Top: 0px;
+			Left: 0px;
+			Width: 120px;
+			Height: 180%;
+			background-color: Silver;
+			Overflow-x: hidden;
+			Padding-top: 15px;
+		}
+
+		Nav ol {
+			List-style-type: none;
+			Margin: 0;
+			Padding: 0;
+		}
+
+		Nav li {
+			Padding: 8px 16px;
+			Border-bottom: 1px solid #ddd;
+		}
+
+		Nav li a {
+			Display: block;
+			Color: #000;
+			Padding: 8px 16px;
+			Text-decoration: none;
+		}
+
+		Nav li a:hover {
+			Background-color: #ddd;
+		}
+
+article{
+	padding-top: 5rem;
+	padding-bottom: 5rem;
+	padding-left: 3rem;
+	padding-right: 3rem;
+}
+
+#definicion{
+	background-color: aliceblue;
+}#definicion article{
+	text-align: left;
+}#definicion h2 {
+	font-size: 2.5rem;
+	font-weight: bold;
+	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+	text-align: left;
+}
+
+section#definicion{
+	background-color: #f3f1fa;
+}
+#definicion article{
+	text-align: left;
+}#definicion h3{ 
+	font-size: 1.5rem;
+	font-weight: bold;
+	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+	text-align: left;
+	padding-top: 1rem;
+}
+
+/* contacto */
+section#contacto{
+	background-color: aliceblue;
+} #contacto h2{
+	font-size: 2.5rem;
+	font-weight: bold;
+	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+	text-align: center;
+	padding-top: 3rem;
+} #contacto article{
+	text-align: center;
+}  #contactForm {
+	text-align: left;
+}
+
+
+/* ubicacion */
+section#ubicacion{
+	background-color: #f8f9fa;
+	display: flex;
+}
+
+
+/* pie de página */
+footer{
+	padding: 20px;
+	background-color: #1e90ff;
+	display: block;
+	width: 100%;
+	position: relative;
+}
+
+footer p {
+	margin-bottom: 0px;
+	padding-bottom: 0px;
+	color: #fff;
+	display: block;
+	position: relative;
+	font-size: 15px;
+}
